@@ -1,0 +1,26 @@
+{
+  "name": "carrot_rush_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gryyny/izzy_money_bot"
+  }
+}
