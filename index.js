@@ -18,6 +18,7 @@ const queries = {};
 
 async function main() {
     bot.on('callback_query', query => {
+        console.log('callback_query', query);
         if (query.game_short_name !== gameName) {
             bot.answerCallbackQuery(query.id, "Sorry, '" + query.game_short_name + "' is not available.");
         } else {
